@@ -1,66 +1,58 @@
-# rsm-highlight README
+# RSM Highlighter - Visual Studio Code Extension
 
-This is the README for your extension "rsm-highlight". After writing up a brief description, we recommend including the following sections.
+Syntax highlighting support for .rsm and .log files with a built-in dark theme.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Syntax highlighting for RSM log files (.rsm, .log)
+- Dark theme optimized for RSM syntax
+- Language support including:
+  - Basic syntax coloring
+  - Bracket matching
+  - Code folding
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+<!-- 1. Open VS Code
+2. Go to Extensions view (Ctrl+Shift+X)
+3. Search for "RSM Highlighter"
+4. Click Install -->
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Alternatively, install from VSIX:
+1. Download the .vsix file from Releases
+2. Open VS Code
+3. Go to Extensions view
+4. Click "..." and select "Install from VSIX"
+5. Select the downloaded file
 
-## Requirements
+## Usage
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open any .rsm or .log file
+2. The syntax highlighting will be automatically applied
+3. To use the dark theme:
+   - Open Command Palette (Ctrl+Shift+P)
+   - Search for "Color Theme"
+   - Select "RSM Theme"
 
-## Extension Settings
+## Configuration
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Customize the theme colors by editing:
+```
+themes/rsm-color-theme.json
+```
 
-For example:
+Customize syntax highlighting by editing:
+```
+syntaxes/rsm.tmLanguage.json
+```
 
-This extension contributes the following settings:
+## Contributing
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-## Known Issues
+## License
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-# themes_vsc
+[MIT](LICENSE)

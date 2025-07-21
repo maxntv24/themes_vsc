@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "rsm",
+  "scopeName": "source.rsm",
+  "patterns": [
+    { "include": "#url" },
+    { "include": "#bracket_expressions" }
+  ],
+  "repository": {
+    
+    "url": {
+      "name": "entity.name.url.rsm",
+      "match": "(https|http)?:\\/\\/[^\\s\\[]+"
+    },
+    "bracket_expressions": {
+      "begin": "\\[",
+      "beginCaptures": {
+        "0": { "name": "punctuation.bracket.rsm" }
+      },
+      "end": "\\]",
+      "endCaptures": {
+        "0": { "name": "punctuation.bracket.rsm" }
+      },
+      "patterns": [
+        { "include": "#status_codes" },
+        { "include": "#general_content" }
+      ]
+    },
+    "status_codes": {
+      "patterns": [
+        {
+          "name": "constant.status.200.rsm",
+          "match": "\\b2[0-9]{2}\\b"
+        },
+        {
+          "name": "constant.status.301.rsm",
+          "match": "\\b3[0-9]{2}\\b"
+        },
+        {
+          "name": "constant.status.403.rsm",
+          "match": "\\b403\\b"
+        },
+        {
+          "name": "constant.status.404.rsm",
+          "match": "\\b404\\b"
+        },
+        {
+          "name": "constant.status.526.rsm",
+          "match": "\\b(5[0-9]{2})\\b"
+        },
+        {
+          "name": "constant.status.high.rsm",
+          "match": "\\bhigh\\b"
+        },
+        {
+          "name": "constant.status.medium.rsm",
+          "match": "\\bmedium\\b"
+        },
+        {
+          "name": "constant.status.low.rsm",
+          "match": "\\blow\\b"
+        }
+      ]
+    },
+    "general_content": {
+      "name": "meta.bracket.content.rsm",
+      "match": "[^\\n\\]]+"
+    }
+  }
+}
