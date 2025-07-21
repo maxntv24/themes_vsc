@@ -1,5 +1,5 @@
 {
-  "name": "RSM Theme",
+  "name": "RSM Github",
   "colors": {
     "focusBorder": "#1f6feb",
     "foreground": "#e6edf3",
@@ -297,13 +297,14 @@
     {
       "scope": "meta.bracket.content.rsm",
       "settings": {
-        "foreground": "#FFD700" 
+        "foreground": "#61AFFF" 
       }
     },
     {
       "scope": "punctuation.bracket.rsm",
       "settings": {
-        "foreground": "#FFD700"
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
       }
     },
     {

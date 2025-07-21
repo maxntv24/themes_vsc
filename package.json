@@ -31,9 +31,14 @@
     ],
     "themes": [
       {
-        "label": "RSM Theme",
+        "label": "RSM Theme Github",
         "uiTheme": "vs-dark",
         "path": "./themes/rsm-color-theme.json"
+      },
+      {
+        "label": "RSM Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default_vscode.json"
       }
     ]
   },

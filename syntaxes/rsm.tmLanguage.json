@@ -42,7 +42,7 @@
         },
         {
           "name": "constant.status.404.rsm",
-          "match": "\\b404\\b"
+          "match": "\\b(40[0-9])\\b"
         },
         {
           "name": "constant.status.526.rsm",
