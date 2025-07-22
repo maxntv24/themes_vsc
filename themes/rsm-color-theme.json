@@ -1,5 +1,5 @@
 {
-  "name": "RSM Github",
+  "name": "SRS Github",
   "colors": {
     "focusBorder": "#1f6feb",
     "foreground": "#e6edf3",
@@ -257,7 +257,7 @@
   "semanticHighlighting": true,
   "tokenColors": [
     {
-      "scope": "entity.name.url.rsm",
+      "scope": "entity.name.url.srs",
       "settings": {
         "foreground": "#56B6C2", 
         "fontStyle": "bold"
@@ -265,62 +265,62 @@
     },
     
     {
-      "scope": "constant.status.200.rsm",
+      "scope": "constant.status.200.srs",
       "settings": {
         "foreground": "#008001" 
       }
     },
     {
-      "scope": "constant.status.301.rsm",
+      "scope": "constant.status.301.srs",
       "settings": {
         "foreground": "#E5C07B"
       }
     },
     {
-      "scope": "constant.status.403.rsm",
+      "scope": "constant.status.403.srs",
       "settings": {
         "foreground": "#f4814e" 
       }
     },
     {
-      "scope": "constant.status.404.rsm",
+      "scope": "constant.status.404.srs",
       "settings": {
         "foreground": "#E06C75" 
       }
     },
     {
-      "scope": "constant.status.526.rsm",
+      "scope": "constant.status.526.srs",
       "settings": {
         "foreground": "#BE5046" 
       }
     },
     {
-      "scope": "meta.bracket.content.rsm",
+      "scope": "meta.bracket.content.srs",
       "settings": {
         "foreground": "#61AFFF" 
       }
     },
     {
-      "scope": "punctuation.bracket.rsm",
+      "scope": "punctuation.bracket.srs",
       "settings": {
         "foreground": "#FFD700",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": "constant.status.high.rsm",
+      "scope": "constant.status.high.srs",
       "settings": {
         "foreground": "#ff0000" 
       }
     },
     {
-      "scope": "constant.status.medium.rsm",
+      "scope": "constant.status.medium.srs",
       "settings": {
         "foreground": "#FFFF00" 
       }
     },
     {
-      "scope": "constant.status.low.rsm",
+      "scope": "constant.status.low.srs",
       "settings": {
         "foreground": "#008001" 
       }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "rsm",
-  "scopeName": "source.rsm",
+  "name": "srs",
+  "scopeName": "source.srs",
   "patterns": [
     { "include": "#url" },
     { "include": "#bracket_expressions" }
@@ -9,17 +9,17 @@
   "repository": {
     
     "url": {
-      "name": "entity.name.url.rsm",
+      "name": "entity.name.url.srs",
       "match": "(https|http)?:\\/\\/[^\\s\\[]+"
     },
     "bracket_expressions": {
       "begin": "\\[",
       "beginCaptures": {
-        "0": { "name": "punctuation.bracket.rsm" }
+        "0": { "name": "punctuation.bracket.srs" }
       },
       "end": "\\]",
       "endCaptures": {
-        "0": { "name": "punctuation.bracket.rsm" }
+        "0": { "name": "punctuation.bracket.srs" }
       },
       "patterns": [
         { "include": "#status_codes" },
@@ -29,41 +29,41 @@
     "status_codes": {
       "patterns": [
         {
-          "name": "constant.status.200.rsm",
+          "name": "constant.status.200.srs",
           "match": "\\b2[0-9]{2}\\b"
         },
         {
-          "name": "constant.status.301.rsm",
+          "name": "constant.status.301.srs",
           "match": "\\b3[0-9]{2}\\b"
         },
         {
-          "name": "constant.status.403.rsm",
+          "name": "constant.status.403.srs",
           "match": "\\b403\\b"
         },
         {
-          "name": "constant.status.404.rsm",
+          "name": "constant.status.404.srs",
           "match": "\\b(40[0-9])\\b"
         },
         {
-          "name": "constant.status.526.rsm",
+          "name": "constant.status.526.srs",
           "match": "\\b(5[0-9]{2})\\b"
         },
         {
-          "name": "constant.status.high.rsm",
+          "name": "constant.status.high.srs",
           "match": "\\bhigh\\b"
         },
         {
-          "name": "constant.status.medium.rsm",
+          "name": "constant.status.medium.srs",
           "match": "\\bmedium\\b"
         },
         {
-          "name": "constant.status.low.rsm",
+          "name": "constant.status.low.srs",
           "match": "\\blow\\b"
         }
       ]
     },
     "general_content": {
-      "name": "meta.bracket.content.rsm",
+      "name": "meta.bracket.content.srs",
       "match": "[^\\n\\]]+"
     }
   }

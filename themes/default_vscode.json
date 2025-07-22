@@ -1,6 +1,6 @@
 {
     "$schema": "vscode://schemas/color-theme",
-    "name": "Default RSM",
+    "name": "Default SRS",
     "include": "./dark_plus.json",
     "colors": {
         "activityBar.activeBorder": "#0078D4",

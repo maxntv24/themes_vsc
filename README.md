@@ -1,11 +1,11 @@
-# RSM Highlighter - Visual Studio Code Extension
+# SRS Highlighter - Visual Studio Code Extension
 
-Syntax highlighting support for .rsm and .log files with a built-in dark theme.
+Syntax highlighting support for .srs and .log files with a built-in dark theme.
 
 ## Features
 
-- Syntax highlighting for RSM log files (.rsm, .log)
-- Dark theme optimized for RSM syntax
+- Syntax highlighting for SRS log files (.srs, .log)
+- Dark theme optimized for SRS syntax
 - Language support including:
   - Basic syntax coloring
   - Bracket matching
@@ -15,7 +15,7 @@ Syntax highlighting support for .rsm and .log files with a built-in dark theme.
 
 <!-- 1. Open VS Code
 2. Go to Extensions view (Ctrl+Shift+X)
-3. Search for "RSM Highlighter"
+3. Search for "SRS Highlighter"
 4. Click Install -->
 
 Alternatively, install from VSIX:
@@ -27,23 +27,23 @@ Alternatively, install from VSIX:
 
 ## Usage
 
-1. Open any .rsm or .log file
+1. Open any .srs or .log file
 2. The syntax highlighting will be automatically applied
 3. To use the dark theme:
    - Open Command Palette (Ctrl+Shift+P)
    - Search for "Color Theme"
-   - Select "RSM Theme"
+   - Select "srs Theme"
 
 ## Configuration
 
 Customize the theme colors by editing:
 ```
-themes/rsm-color-theme.json
+themes/srs-color-theme.json
 ```
 
 Customize syntax highlighting by editing:
 ```
-syntaxes/rsm.tmLanguage.json
+syntaxes/srs.tmLanguage.json
 ```
 
 ## Contributing

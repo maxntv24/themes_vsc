@@ -1,22 +1,22 @@
 {
-  "name": "rsm-highlighter",
-  "displayName": "RSM Highlighter",
-  "description": "Syntax highlighting for .rsm files",
+  "name": "srs-highlighter",
+  "displayName": "SRS Highlighter",
+  "description": "Syntax highlighting for .srs files",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "maxntv",
   "engines": {
     "vscode": "^1.82.0"
   },
   "contributes": {
     "languages": [
       {
-        "id": "rsm",
+        "id": "srs",
         "aliases": [
-          "RSM Log",
-          "rsm"
+          "Scan Result Log",
+          "srs"
         ],
         "extensions": [
-          ".rsm",
+          ".srs",
           ".log"
         ],
         "configuration": "./language-configuration.json"
@@ -24,32 +24,23 @@
     ],
     "grammars": [
       {
-        "language": "rsm",
-        "scopeName": "source.rsm",
-        "path": "./syntaxes/rsm.tmLanguage.json"
+        "language": "srs",
+        "scopeName": "source.srs",
+        "path": "./syntaxes/srs.tmLanguage.json"
       }
     ],
     "themes": [
       {
-        "label": "RSM Theme Github",
+        "label": "SRS Theme Github",
         "uiTheme": "vs-dark",
-        "path": "./themes/rsm-color-theme.json"
+        "path": "./themes/srs-color-theme.json"
       },
       {
-        "label": "RSM Default",
+        "label": "SRS Default",
         "uiTheme": "vs-dark",
         "path": "./themes/default_vscode.json"
       }
     ]
-  },
-  "devDependencies": {
-    "@changesets/changelog-github": "^0.4.1",
-    "@changesets/cli": "^2.17.0",
-    "@primer/primitives": "7.10.0",
-    "chroma-js": "^2.1.2",
-    "color": "^3.1.2",
-    "nodemon": "^2.0.3",
-    "vsce": "^1.100.1"
   },
   "repository": {
     "type": "git",
